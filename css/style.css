@@ -1,0 +1,170 @@
+* {
+    color: #666666;
+    font-family: myriad pro,curcursive,georgia;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+h1 {
+}
+h1, h2, h3 {
+    color: #666666;
+    font-weight: normal;
+}
+ul li {
+    list-style: none outside none;
+    margin: 5px;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+#header {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-bottom: none;
+    margin: 10px auto 0;
+    overflow: hidden;
+    padding: 10px;
+    width: 780px;
+}
+#header_left {
+    float: left;
+    overflow: hidden;
+    width: 380px;
+}
+#header_right {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: right;
+    width: 400px;
+}
+.menu {
+    display: inline;
+}
+#main {
+    background: url("/images/bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #E5E5E5;
+    margin: 0 auto;
+    min-height: 250px;
+    overflow: hidden;
+    width: 800px;
+}
+#sidebar {
+    float: left;
+    padding: 10px;
+    width: 180px;
+}
+#content {
+    overflow: hidden;
+    padding: 10px;
+}
+.article {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.article img {
+    margin: 0 10px 5px 0;
+}
+.comment {
+    margin-bottom: 5px;
+}
+.article_edit {
+    height: 100px;
+    width: 604px;
+}
+#paginations {
+    text-align: center;
+}
+#login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    height: 165px;
+    margin: 100px auto 0;
+    padding: 15px;
+    width: 400px;
+}
+.red {
+    color: red;
+}
+#login p {
+    color: #666666;
+}
+#login .input {
+    border: 1px solid #E5E5E5;
+    height: 20px;
+    width: 200px;
+    color: #444444;
+}
+#login #submit {
+    color: #444444;
+    cursor: pointer;
+    padding: 1px 0 2px;
+    width: 70px;
+}
+.delete, 
+.edit {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: red;
+    cursor: pointer;
+}
+.delete_category,
+.edit_category {
+    font-size: 16px;
+}
+.edit {
+    color: blue;
+}
+.active {
+    color: #444444;
+}
+.left {
+    float: left;
+}
+.text, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #444444;
+    margin: 5px 0;
+    padding: 2px;
+    width: 200px;
+}
+.info {
+    clear: both;
+    color: #444444;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#form_comment .submit {
+    color: #444444;
+}
+#footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    font-size: 12px;
+    height: 25px;
+    margin: 0 auto 10px;
+    width: 800px;
+}
+#footer .footer_left {
+    float: left;
+    margin-left: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    width: 390px;
+}
+#footer .footer_right {
+    margin-right: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    text-align: right;
+    width: 390px;
+}
