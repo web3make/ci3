@@ -29,7 +29,6 @@ INSERT INTO `categories` (`id_category`, `title`, `id_group`) VALUES
 -- --------------------------------------------------------
 CREATE TABLE IF NOT EXISTS `comments` (
   `id_comment` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `user_name` varchar(255) DEFAULT NULL,
   `text` text,
   `id_article` int(10) unsigned NOT NULL,
   `id_user` int(11) NOT NULL,
@@ -39,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `comments` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 --
 INSERT INTO `comments` (`id_comment`, `user_name`, `text`, `id_article`, `id_user`) VALUES
-(5, NULL, 'Text#1', 1, 1);
+(5, 'Text#1', 1, 1);
 -- --------------------------------------------------------
 CREATE TABLE IF NOT EXISTS `settings` (
   `title` varchar(100) DEFAULT NULL,
